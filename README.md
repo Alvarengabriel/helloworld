@@ -66,9 +66,9 @@ spring.jpa.properties.hibernate.format_sql=true
 
 ## Executando a Aplicação
 
-Você pode executar a aplicação de duas maneiras:
+Você pode executar a aplicação via linha de comando
 
-### Via Linha de Comando (Maven Wrapper)
+## Maven Wrapper
 
 Abra um terminal na pasta raiz do projeto (`d:\Lasalle\helloworld`) e execute o comando:
 
