@@ -15,4 +15,5 @@ RUN ./mvnw clean install -DskipTests
 
 EXPOSE 8080
 
-ENTRYPOINT ["/bin/bash", "-c", "java -Dserver.port=$PORT -jar target/helloworld-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["/bin/bash", "-c", "java -Dserver.port=$PORT -Dspring.datasource.url=$SPRING_DATASOURCE_URL -Dspring.datasource.username=$SPRING_DATASOURCE_USERNAME -Dspring.datasource.password=$SPRING_DATASOURCE_PASSWORD -jar target/helloworld-0.0.1-SNAPSHOT.jar"]
+
