@@ -15,4 +15,4 @@ RUN ./mvnw clean install -DskipTests
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "target/helloworld-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-Dserver.port=$PORT", "-jar", "target/helloworld-0.0.1-SNAPSHOT.jar"]
