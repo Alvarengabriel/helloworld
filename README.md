@@ -1,3 +1,5 @@
+Aluno: Gabriel Antunes Alvarenga
+
 # API de Clientes e Pedidos
 
 Este é um projeto de API RESTful desenvolvido com Spring Boot que gerencia um CRUD (Criar, Ler, Atualizar, Deletar) completo para duas entidades principais: `Cliente` e `Pedido`.
